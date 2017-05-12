@@ -6,4 +6,4 @@ WORKDIR /usr/src/app
 COPY ./web/requirements.txt /usr/src/app/
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./web /usr/src/app
+COPY ./web/ /usr/src/app
